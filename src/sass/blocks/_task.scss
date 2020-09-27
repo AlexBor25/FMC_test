@@ -1,0 +1,63 @@
+.task{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            background: url('../../img/other/operativ.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 79px;
+        }
+        &-item2{
+            background: url('../../img/other/control.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 79px;
+        }
+        &-item3{
+            background: url('../../img/other/analyze.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 79px;
+        }
+        &-item4{
+            background: url('../../img/other/expenses.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 37px;
+        }
+        &-item5{
+            background: url('../../img/other/analytics.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 37px;
+        }
+        &-item6{
+            background: url('../../img/other/integration.png')center (center/cover) no-repeat;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            margin-top: 37px;
+        }
+    }
+    &__text{
+        margin-top: 176px;
+        text-align: center;
+    }
+    &__arrow{
+        margin-top: 72px;
+        text-align: center;
+    }
+    &__title{
+        margin-top: 33px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        color: #393939;
+    }
+}

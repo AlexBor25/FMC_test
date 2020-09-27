@@ -1,0 +1,37 @@
+.resolution{
+    margin-top: 81px;
+    background: url('../../img/bg/bg_2.png')center (center/cover) no-repeat;
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: #ffffff;
+        padding-top: 79px;
+    }
+    &__menu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 843px;
+        height: 64px;
+        margin: 0 auto;
+        margin-top: 25px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        text-align: center;
+        &-link{
+            font-size: 14px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover{
+                font-weight: 700;
+                color: #00c2f0;
+            }
+        }
+    }
+    &__img{
+        margin-top: 36px;
+        text-align: center;
+    }
+}

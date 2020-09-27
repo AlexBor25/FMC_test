@@ -1,0 +1,29 @@
+.header {
+    height: 85px;
+    &__title{
+        font-size: 14px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__descr{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &__phone{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &__img{
+        width: 28px;
+        height: 21px;
+        margin-right: 11px;
+    }
+    &__wrapper{
+        display: flex;
+        &-item{
+            display: flex;
+            margin-right: 25px;
+            margin-top: 20px;
+        }
+    }
+}
