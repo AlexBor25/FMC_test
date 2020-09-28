@@ -1,0 +1,36 @@
+.work {
+    height: 690px;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img{
+        width: 302px;
+        height: 302px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80px;
+        img{
+            &:hover{
+                border:solid 1px #00c2f0;
+                margin: 31px;
+            }
+        }
+        &:hover{
+            width: 302px;
+            height: 302px;
+        }
+    }
+    &__title{
+        margin-top: 74px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: #393939;
+    }
+    &__btn{
+        margin-top: 30px;
+    }
+}
